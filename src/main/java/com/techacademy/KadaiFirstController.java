@@ -25,19 +25,19 @@ public class KadaiFirstController {
 		String result ="0";
 
 		if (dayOfWeek == 1) {
-			result="SunDay";
+			result="Sunday";
 		} else if (dayOfWeek == 2) {
-			result ="MonDay";
+			result ="Monday";
 		} else if (dayOfWeek == 3) {
-			result ="TuesDay";
+			result ="Tuesday";
 		} else if (dayOfWeek == 4) {
-			result ="WednesDay";
+			result ="Wednesday";
 		} else if (dayOfWeek == 5) {
-			result ="ThursDay";
+			result ="Thursday";
 		} else if (dayOfWeek == 6) {
-			result ="FriDay";
+			result ="Friday";
 		} else if (dayOfWeek == 7) {
-			result ="saturDay";
+			result ="saturday";
 		}
 
 		return result;
